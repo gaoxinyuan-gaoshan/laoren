@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <!--  width=device-width的宽度 height=height-viewport的高度
+        initial-scale 初始的缩放比例
+        user-scalable 用户是否可以手动缩放
+    -->
+    <title>老人首页</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-zj.css">
+</head>
+<body>
+<!--导航-->
+<nav class="navbar navbar-default" style="background:#ADD8E6">
+    <div class="container"  >
+        <!--小屏幕导航按钮和logo-->
+        <div class="navbar-header" style="">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style=" margin-top: 20px">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand" style="margin-left: -120px;margin-top: -16px;"><img src="img/13.png"></a>
+        </div>
+        <!--小屏幕导航按钮和logo-->
+        <!--导航-->
+        <div class="navbar-collapse collapse" style="margin-top: 20px">
+            <ul class="nav navbar-nav ">
+                <li class="active"><a href="index.html" ><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;首页</a></li>
+                <li><a href="message_list.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;健康数据</a></li>
+                <li><a href="tutelage.html"><span class="glyphicon glyphicon-heart-empty"></span>&nbsp;&nbsp;健康监护</a></li>
+                <li><a href="archives.html"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;健康档案</a></li>
+                <li><a href="home_doctor.html"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;&nbsp;家庭医生</a></li>
+                <li><a href="order.html"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;&nbsp;预约服务</a></li>
+                <li><a href="user_massage.html"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人信息</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        admin
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;&nbsp;前台首页</a></li>
+                        <li><a href="index.html"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人首页</a></li>
+                        <li><a href="index.html"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;个人设置</a></li>
+                        <li><a href="index.html"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;账户中心</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+            </ul>
+        </div>
+        <!--导航-->
+    </div>
+</nav>
+<!--导航-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading" style="background: #AFEEEE">个人信息</div>
+                <div class="panel-body">
+                    <div class="col-sm-2">
+                        <a href="#" class="thumbnail">
+                            <img src="img/23.png"
+                                 alt="通用的占位符缩略图">
+                        </a>
+                        <button class="btn btn-default" style="margin-left: 30px">修改头像</button>
+                    </div>
+                    <div class="col-sm-10 list-group">
+                        <li class="list-group-item">
+                            姓名：
+                        </li>
+                        <li class="list-group-item">
+                        性别：
+                        </li>
+                        <li class="list-group-item">
+                            年龄：
+                        </li>
+                        <li class="list-group-item">
+                            地址：
+                        </li>
+                        <li class="list-group-item">
+                            联系电话：
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="panel panel-danger">
+                <div class="panel-heading">预警信息</div>
+                <div class="panel-body">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>预警项目</th>
+                            <th>昨日</th>
+                            <th>今日</th>
+                            <th>标准</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">血压</th>
+                            <td>100/150</td>
+                            <td>100/140</td>
+                            <td>80/120</td>
+                            <td><a href="">忽略</a> </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">血糖</th>
+                            <td>4.2</td>
+                            <td>4.5</td>
+                            <td>4-5</td>
+                            <td><a href="">忽略</a> </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">血压</th>
+                            <td>100/150</td>
+                            <td>100/140</td>
+                            <td>80/120</td>
+                            <td><a href="">忽略</a> </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">血压</th>
+                            <td>100/150</td>
+                            <td>100/140</td>
+                            <td>80/120</td>
+                            <td><a href="">忽略</a> </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">血压信息</div>
+                <div class="panel-body">
+                    <canvas id="canvas" class="col-md-12"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">血糖信息</div>
+                <div class="panel-body">
+                    <canvas id="can" class="col-md-12"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                我们比您 更懂您的身体💗
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
